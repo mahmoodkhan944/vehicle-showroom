@@ -1,0 +1,482 @@
+header {
+  background-color: #5f9ea5;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  text-shadow: 2px 2px 2px #8b0000;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+}
+nav a:hover {
+  color: #5f9ea5;
+}
+
+.home {
+  padding: 20px;
+  margin: 20px;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+    url(../Project_Pics/8.jpg);
+  background-size: cover;
+}
+.home > h1 {
+  color: #000;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  text-anchor: middle;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px #8b0000;
+}
+.home > p {
+  color: #8b0000;
+  word-spacing: 5px;
+  line-height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.home > img {
+  margin-left: 40%;
+}
+
+.customerDetails {
+  padding: 14px;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+    url(../Project_Pics/10.jpg);
+  background-size: cover;
+}
+.customerDetails > form > h2 {
+  color: #000;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #5f9ea5;
+}
+.customerDetails > form > p {
+  margin: 10px;
+  font-size: 20px;
+  color: #8b0000;
+  justify-content: center;
+}
+.customerDetails > form > fieldset {
+  margin: 10px;
+  font-size: 20px;
+  color: #8b0000;
+}
+.customerDetails > form > fieldset > legend {
+  color: #fff;
+}
+.customerID {
+  margin-left: 33px;
+  padding: 5px;
+  color: #000;
+  border: none;
+}
+.customerNameInput {
+  padding: 5px;
+  border: none;
+  color: #000;
+}
+.customerDate {
+  padding: 5px;
+  margin-left: 145px;
+  border: none;
+  color: #000;
+}
+.customerUID {
+  padding: 5px;
+  border: none;
+  color: #000;
+}
+.customerEmail {
+  padding: 5px;
+  margin-left: 90px;
+  border: none;
+  color: #000;
+}
+.customerMobile {
+  padding: 5px;
+  margin-left: 5px;
+  border: none;
+  color: #000;
+}
+.customerAddress {
+  padding: 5px;
+  margin-left: 75px;
+  border: none;
+  color: #000;
+}
+.customerDetails > form > button {
+  margin-left: 50px;
+}
+
+.employeeDetails {
+  padding: 20px;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+    url(../Project_Pics/14.jpg);
+  background-size: cover;
+}
+.employeeDetails > form > h2 {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 2px #5f9ea5;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+.employeeDetails > form > p {
+  margin: 10px;
+  font-size: 20px;
+  color: #8b0000;
+  justify-content: center;
+}
+.employeeDetails > form > fieldset {
+  margin: 10px;
+  font-size: 20px;
+  color: #8b0000;
+}
+.employeeDetails > form > fieldset > legend {
+  color: #fff;
+}
+.employeeID {
+  padding: 5px;
+  margin-left: 33px;
+  border: none;
+  color: #000;
+}
+.employeeName {
+  padding: 5px;
+  border: none;
+  color: #000;
+}
+.employeeDOB {
+  padding: 5px;
+  margin-left: 136px;
+  border: none;
+  color: #000;
+}
+.employeeUID {
+  padding: 5px;
+  border: none;
+  color: #000;
+}
+.employeeEmail {
+  padding: 5px;
+  margin-left: 70px;
+  border: none;
+  color: #000;
+}
+.employeeEmail {
+  padding: 5px;
+  margin-left: 90px;
+  border: none;
+  color: #000;
+}
+.employeeMobile {
+  padding: 5px;
+  margin-left: 5px;
+  border: none;
+  color: #000;
+}
+.employeeAddress {
+  padding: 5px;
+  margin-left: 75px;
+  border: none;
+  color: #000;
+}
+.employeeDetails > form > fieldset > label {
+  margin: 10px;
+  font-size: 20px;
+}
+.employeeDetails > form > fieldset > select {
+  padding: 5px;
+  border: none;
+  color: #000;
+}
+.employeeDetails > form > fieldset > select > option {
+  color: #000;
+  font-size: 20px;
+}
+.employeeDetails > form > button {
+  margin-left: 50px;
+}
+
+.supplierDetails {
+  padding: 20px;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+    url("../Project_Pics/18.jpg");
+  background-size: cover;
+}
+.supplierDetails > form > h1 {
+  color: #000;
+  text-shadow: 2px 2px 2px #5f9ea5;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.supplierDetails > form > p {
+  color: #8b0000;
+  margin: 10px;
+  font-size: 20px;
+  justify-content: center;
+}
+.supplierID {
+  padding: 5px;
+  margin-left: 117px;
+  border: none;
+}
+.supplierName {
+  padding: 5px;
+  margin-left: 83px;
+  border: none;
+}
+.supplierMobile {
+  padding: 5px;
+  border: none;
+}
+.supplierEmail {
+  padding: 5px;
+  margin-left: 86px;
+  border: none;
+}
+.supplierAddress {
+  padding: 5px;
+  margin-left: 70px;
+  border: none;
+}
+.supplierDetails > form > button {
+  margin-left: 50px;
+}
+
+.bikeDetails {
+  padding: 20px;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+    url("../Project_Pics/19.jpg");
+  background-size: cover;
+}
+.bikeDetails > form > h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 2px #5f9ea5;
+  font-family: "Times New Roman", Times, serif;
+}
+.bikeDetails > form > p {
+  color: #8b0000;
+  font-size: 20px;
+  margin: 10px;
+  justify-content: center;
+}
+.bikeID {
+  padding: 5px;
+  margin-left: 115px;
+  color: #000;
+  border: none;
+}
+
+.bikeDetails > form > fieldset > label {
+  margin: 10px;
+  font-size: 20px;
+  color: #8b0000;
+}
+.bikeDetails > form > fieldset > select {
+  padding: 5px;
+  color: #000;
+  border: none;
+}
+.bikeDetails > form > fieldset > select > option {
+  font-size: 20px;
+  color: #000;
+}
+.bikeEngine {
+  padding: 5px;
+  color: #000;
+  border: none;
+}
+.bikeChasis {
+  padding: 5px;
+  color: #000;
+  border: none;
+}
+.bikeDetails > form > button {
+  margin-left: 50px;
+}
+
+.Signup {
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+    url("../Project_Pics/4.jpg");
+  background-size: cover;
+}
+.Signup > form > h1 {
+  text-align: center;
+  /* display: flex; */
+  /* margin-bottom: 20px; */
+  padding: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #5f9ea5;
+  font-family: "Times New Roman", Times, serif;
+}
+.Signup > form > p {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border: none;
+  color: #8b0000;
+}
+.Signup > form > p > input {
+  color: #000;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  /* border-bottom: 1px solid rgb(211, 211, 211); */
+}
+.SignupButton {
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+  background: none;
+  border: none;
+}
+.loginButton > input {
+  background-color: cornflowerblue;
+  color: #fff;
+  width: 100px;
+  margin-left: 47%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 2.5vh;
+}
+.loginButton > input:hover {
+  background-color: rgb(128, 128, 128);
+  color: #000;
+}
+
+.login {
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+    url("../Project_Pics/2.jpg");
+  background-size: cover;
+}
+.login > form > h1 {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #000;
+  text-shadow: 2px 2px 2px #5f9ea5;
+  font-family: "Times New Roman", Times, serif;
+}
+.login > form > p {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #8b0000;
+}
+.login > form > p > input {
+  color: #000;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  /* border-bottom: 1px solid rgb(211, 211, 211); */
+}
+.LoginButton {
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+  background: none;
+  border: none;
+}
+.signup > input {
+  background-color: cornflowerblue;
+  color: #fff;
+  width: 100px;
+  margin-left: 47%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 2.5vh;
+}
+.signup > input:hover {
+  background-color: rgb(128, 128, 128);
+  color: #000;
+}
+
+.button {
+  width: 400px;
+  justify-content: center;
+  margin: 10px;
+  background: none;
+  border: none;
+}
+
+.submit {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(128, 128, 128);
+  color: rgb(0, 0, 0);
+  width: 100px;
+
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 2.5vh;
+}
+.submit:hover {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.reset {
+  padding: 8px 0;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(128, 128, 128);
+  color: rgb(0, 0, 0);
+  width: 100px;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+  border-radius: 10px;
+  font-size: 2.5vh;
+}
+.reset:hover {
+  background-color: orangered;
+  color: #fff;
+}
